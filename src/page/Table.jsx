@@ -6,11 +6,12 @@ const Table = () => {
   
 
   return (
-    <div>
-      <div  ref={componentRef} id="print-area"
-        className="mx-96 mt-10"
+    <div className="mx-96">
+      <div  ref={componentRef}
+        className=" mt-10 mx-auto h-[900px]"
         style={{ background: "white", border: "1px dotted black" }}
       >
+       
         <div className="mx-2 mt-2 mb-96">
           <div className="flex justify-between">
             <p>
