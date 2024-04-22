@@ -6,8 +6,8 @@ const Table = () => {
   
 
   return (
-    <div >
-      <div  ref={componentRef}
+    <div>
+      <div  ref={componentRef} id="print-area"
         className="mx-96 mt-10"
         style={{ background: "white", border: "1px dotted black" }}
       >
@@ -408,7 +408,7 @@ const Table = () => {
               Print
             </button>
           )}
-          content={() => componentRef.current}
+          content={() => componentRef.current} id="print-component"
         />
       </div>
     </div>

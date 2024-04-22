@@ -4,3 +4,26 @@
     border-bottom: 1px dotted #0a0a0a; /* Create a dotted border */
     margin: 10px 0; /* Add some spacing above and below the line */
   }
+
+  @media print {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    #print-component {
+      width: 100%;
+      height: auto;
+      border: none;
+      box-sizing: border-box;
+      padding: 0;
+    }
+    @page {
+      size: auto;
+      margin: 0;
+    }
+  }
