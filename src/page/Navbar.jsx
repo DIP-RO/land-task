@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <div
-      className="navbar"
+      className="navbar sm:w-[600px]"
       style={{ backgroundColor: "#683091", minHeight: "75px" }}
     >
           <div className="flex-1">

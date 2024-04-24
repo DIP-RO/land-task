@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="mt-5"style={{backgroundColor:"#8dc641"}}>
+        <footer className="mt-5 text-xs sm:w-[600px]"style={{backgroundColor:"#8dc641"}}>
                <div className=" flex justify-between mx-5 p-2" >
             <div className="flex flex-row items-center gap-3">
                 <img className="w-5" src="https://i.ibb.co/TPc1ZTt/bangladesh-govt-logo-A2-C7688845-seeklogo-com-removebg-preview.png"/>
